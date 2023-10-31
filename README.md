@@ -1,4 +1,4 @@
-[# HSA10  4. Monitoring systems for user metrics
+# HSA10  4. Monitoring systems for user metrics
 
 # Homework 4
 
