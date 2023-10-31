@@ -1,0 +1,16 @@
+version: '3.6'
+services:
+  golang-app:
+    container_name: golang-app
+    restart: always
+    build:
+      context: golang-app
+    env_file:
+      - .env.dist
+    ports:
+      - "8080:8080"
+    networks:
+      - backend
+
+networks:
+  backend:
